@@ -737,7 +737,7 @@ void CMainApplication::printPositionalData()
     }
 
 }
-
+/////////////////////////////////////////// Battery Area Start here //////////////////////////////////
 void CMainApplication::printStatusData()
 {
 	for (vr::TrackedDeviceIndex_t unDevice = 0; unDevice < vr::k_unMaxTrackedDeviceCount; unDevice++)
@@ -792,6 +792,8 @@ void CMainApplication::printStatusData()
 		break;
 		*/
 }
+
+/////////////////////////////////////////// Battery Area Ends here //////////////////////////////////
 
 //-----------------------------------------------------------------------------
 // Purpose:
